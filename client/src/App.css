@@ -65,20 +65,20 @@ h1 {
   gap: 18px;
 }
 
-.stats-grid article {
+.stat-card {
   padding: 20px;
   border-radius: 8px;
   background: #eef4f1;
 }
 
-.stats-grid span {
+.stat-card span {
   display: block;
   margin-bottom: 12px;
   color: #5f6f66;
   font-size: 0.9rem;
 }
 
-.stats-grid strong {
+.stat-card strong {
   font-size: 1.8rem;
 }
 
