@@ -1,6 +1,6 @@
 .app-shell {
   min-height: 100vh;
-  padding: 64px 24px;
+  padding: 64px 24px 64px;
   background: #f4f7f5;
   color: #17211b;
 }
@@ -23,6 +23,44 @@ h1 {
   margin: 0;
   font-size: clamp(3rem, 8vw, 5.5rem);
   line-height: 1;
+}
+
+.app-layout {
+  min-height: 100vh;
+  background: #f4f7f5;
+}
+
+.site-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 24px;
+}
+
+.brand-link {
+  color: #17211b;
+  font-size: 1.1rem;
+  font-weight: 800;
+  text-decoration: none;
+}
+
+.site-nav {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.site-nav a {
+  color: #5f6f66;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.site-nav a.active {
+  color: #17211b;
 }
 
 .hero-text {
