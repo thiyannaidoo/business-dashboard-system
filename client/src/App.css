@@ -96,6 +96,10 @@ h1 {
   line-height: 1.7;
 }
 
+.page-action {
+  margin-top: 28px;
+}
+
 .hero-text {
   max-width: 620px;
   margin: 24px 0 0;
