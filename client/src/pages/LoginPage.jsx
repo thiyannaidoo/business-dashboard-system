@@ -1,8 +1,13 @@
+import PageHeader from '../components/PageHeader'
+
 function LoginPage() {
   return (
     <main className="page-shell">
-      <h1>Login</h1>
-      <p>Sign in to access your StockFlow dashboard.</p>
+      <PageHeader
+        eyebrow="Welcome Back"
+        title="Sign in to StockFlow"
+        description="Access your dashboard to manage inventory and review business activity."
+      />
     </main>
   )
 }

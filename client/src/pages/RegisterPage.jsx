@@ -1,8 +1,13 @@
+import PageHeader from '../components/PageHeader'
+
 function RegisterPage() {
   return (
     <main className="page-shell">
-      <h1>Register</h1>
-      <p>Create an account to start managing inventory.</p>
+      <PageHeader
+        eyebrow="Create Account"
+        title="Start using StockFlow"
+        description="Create an account to begin tracking products, stock levels, and inventory value."
+      />
     </main>
   )
 }

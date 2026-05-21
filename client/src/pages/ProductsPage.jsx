@@ -1,8 +1,13 @@
+import PageHeader from '../components/PageHeader'
+
 function ProductsPage() {
   return (
     <main className="page-shell">
-      <h1>Products</h1>
-      <p>Manage inventory products, categories, pricing, and stock levels.</p>
+      <PageHeader
+        eyebrow="Products"
+        title="Product Management"
+        description="Manage product details, categories, pricing, suppliers, and stock levels."
+      />
     </main>
   )
 }
