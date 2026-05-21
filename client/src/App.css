@@ -27,7 +27,7 @@ h1 {
 
 .hero-text {
   max-width: 620px;
-  margin: 24px 0 32px;
+  margin: 24px 0 0;
   color: #4c5a51;
   font-size: 1.2rem;
   line-height: 1.7;
@@ -41,6 +41,25 @@ h1 {
   border-radius: 6px;
   background: #17211b;
   color: #ffffff;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.hero-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: 32px;
+}
+
+.secondary-link {
+  display: inline-flex;
+  align-items: center;
+  min-height: 44px;
+  padding: 0 18px;
+  border: 1px solid #c8d5ce;
+  border-radius: 6px;
+  color: #17211b;
   font-weight: 700;
   text-decoration: none;
 }

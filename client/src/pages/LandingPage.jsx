@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom'
 import StatCard from '../components/StatCard'
 
 function LandingPage() {
@@ -10,9 +11,14 @@ function LandingPage() {
           Track products, monitor stock levels, and manage day-to-day inventory
           from one clean dashboard.
         </p>
-        <a className="primary-link" href="#dashboard-preview">
-          View Dashboard
-        </a>
+        <div className="hero-actions">
+  <Link className="primary-link" to="/dashboard">
+    View Dashboard
+  </Link>
+  <Link className="secondary-link" to="/login">
+    Sign In
+  </Link>
+</div>
       </section>
 
       <section id="dashboard-preview" className="preview-panel">
