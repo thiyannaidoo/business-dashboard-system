@@ -1,6 +1,21 @@
 import { Link } from 'react-router-dom'
 import StatCard from '../components/StatCard'
 
+const dashboardStats = [
+  {
+    label: 'Total Products',
+    value: '128',
+  },
+  {
+    label: 'Low Stock Items',
+    value: '12',
+  },
+  {
+    label: 'Inventory Value',
+    value: 'R84,250',
+  },
+]
+
 function LandingPage() {
   return (
     <main className="app-shell">
@@ -24,9 +39,9 @@ function LandingPage() {
       <section id="dashboard-preview" className="preview-panel">
         <h2>Dashboard Preview</h2>
         <div className="stats-grid">
-          <StatCard label="Total Products" value="128" />
-          <StatCard label="Low Stock Items" value="12" />
-          <StatCard label="Inventory Value" value="R84,250" />
+          {dashboardStats.map((stat) => (
+  <StatCard key={stat.label} label={stat.label} value={stat.value} />
+))}
         </div>
       </section>
     </main>
